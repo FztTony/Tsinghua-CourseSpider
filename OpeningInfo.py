@@ -1,7 +1,7 @@
 import requests, re, pandas as pd
 from lxml import etree
 
-token = "e8a9694ecddf6289c464564ceb780be5"
+token = "0123456789abcdef"
 xq = "2019-2020-1"
 url = "http://zhjw.cic.tsinghua.edu.cn/xkBks.vxkBksJxjhBs.do"
 # cookies = {"JSESSIONID": "bac05ABkKzw2ThshY-AEw", "JSESSIONIDJXPGNEW": "abc1_r14EY8nl7_fW-AEw",
@@ -13,7 +13,7 @@ headers = {"Host": "zhjw.cic.tsinghua.edu.cn",
            "Accept-Encoding": "gzip, deflate", "Referer": "http://zhjw.cic.tsinghua.edu.cn/xkBks.vxkBksJxjhBs.do",
            "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "311", "DNT": "1",
            "Connection": "keep-alive",
-           "Cookie": "JSESSIONIDJXPGNEW=bacWJ0olAfI6O_ayPkYPw; JSESSIONID=bacjR0OEFuotR486PkYPw",
+           "Cookie": "JSESSIONIDJXPGNEW=xxxxxxxxxxx; JSESSIONID=xxxxxxxxxxx",
            "Upgrade-Insecure-Requests": "1", "Pragma": "no-cache", "Cache-Control": "no-cache"}
 
 
